@@ -1,0 +1,14 @@
+@import "./index.css";
+header {
+  margin-bottom: 50px;
+  background-color: #1e1e1e;
+}
+
+.navbar-nav a {
+  color: #ffffff;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
