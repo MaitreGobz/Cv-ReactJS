@@ -1,14 +1,27 @@
 @import "./index.css";
 header {
+  font-family: "Nunito Sans", sans-serif;
   margin-bottom: 50px;
   background-color: #1e1e1e;
 }
-
-.navbar-nav a {
+header .navbar-nav a {
   color: #ffffff;
 }
 
-.img-circle {
-  border-radius: 50%;
+footer {
+  font-family: "Nunito Sans", sans-serif;
+}
+footer a {
+  text-decoration: none;
+  color: #444;
+}
+footer Link span {
+  color: blue;
+  text-indent: 1rem;
 }
 
+main h1, main h2, main h3, main h4, main h5 {
+  color: #1e1e1e;
+}
+
+/*# sourceMappingURL=App.css.map */

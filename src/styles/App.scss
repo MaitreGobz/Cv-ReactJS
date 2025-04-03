@@ -1,0 +1,40 @@
+@import "./index.css";
+header {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 50px;
+  background-color: #1e1e1e;
+  .navbar-nav a {
+    color: #ffffff;
+  }
+}
+
+
+footer {
+  font-family: 'Nunito Sans', sans-serif;
+    a {
+    text-decoration: none;
+    color:#444;
+    };
+    Link {
+        text-indent: 1rem;
+    };
+    span{
+      color: blue;
+    };
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      z-index: 1000;
+      transition: opacity 0.3s ease-in-out;
+  }
+}
+
+ 
+main {
+    h1, h2, h3, h4, h5 {
+        color: #1e1e1e;
+      }
+}
+
