@@ -70,7 +70,7 @@ const Footer = () => {
                             <h4 className="list-group">Liens utiles</h4>
                             <ul className="list-unstyled">
                                 <li>
-                                    <Link className="list-group-item" to="/accueil"><span>> </span>Accueil</Link>
+                                    <Link className="list-group-item" to="/"><span>> </span>Accueil</Link>
                                 </li>
                                 <li>
                                     <Link className="list-group-item" to="/about"><span>> </span>A propos</Link>
@@ -123,14 +123,13 @@ const Footer = () => {
             </div>
             {/* Copyright */}
             <div className="col bg-dark text-light text-center p-2">
-                <span>© Designed by Nayet Lucas</span>
+                <span id="copyright">© Designed by Nayet Lucas</span>
             </div>
             {/* Bouton de retour en haut */}
             <button 
                 id="scrollTopBtn" 
-                className="btn btn-primary rounded-circle p-3 position-fixed bottom-0 end-0 m-4"
-                style={{ display: "none", opacity: "0", transition: "opacity 0.3s ease-in-out", zIndex: 1000 }}>
-                ⬆
+                className="btn btn-dark rounded py-2 px-2 position-fixed bottom-0 end-10 m-4">
+                Retourner en haut
             </button>
         </footer>
     )
