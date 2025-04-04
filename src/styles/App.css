@@ -4,7 +4,13 @@ header {
   background-color: #1e1e1e;
 }
 header .navbar-nav a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
+}
+header .navbar-nav a:focus {
+  color: rgb(255, 255, 255);
+}
+header .navbar-nav a:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 header #logo {
   width: 36px;
@@ -30,7 +36,10 @@ footer #scrollTopBtn {
   right: 20px;
   display: none;
   z-index: 1000;
-  transition: opacity 0.3s ease-in-out;
+  transition: background-color 0.5s;
+}
+footer #scrollTopBtn:hover {
+  background-color: #298eff;
 }
 footer #copyright {
   color: #ffffff;

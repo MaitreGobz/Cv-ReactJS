@@ -70,19 +70,19 @@ const Footer = () => {
                             <h4 className="list-group">Liens utiles</h4>
                             <ul className="list-unstyled">
                                 <li>
-                                    <Link className="list-group-item" to="/"><span>> </span>Accueil</Link>
+                                    <Link className="list-group-item" to="/"><span>{">"} </span>Accueil</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item" to="/about"><span>> </span>A propos</Link>
+                                    <Link className="list-group-item" to="/about"><span>{">"} </span>A propos</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item" to="/services"><span>> </span>Services</Link>
+                                    <Link className="list-group-item" to="/services"><span>{">"} </span>Services</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item" to="/contact"><span>> </span>Me contacter</Link>
+                                    <Link className="list-group-item" to="/contact"><span>{">"} </span>Me contacter</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item " to="/mentions"><span>> </span>Mentions légales</Link>
+                                    <Link className="list-group-item " to="/mentions"><span>{">"} </span>Mentions légales</Link>
                                 </li>
                             </ul>
                         </div>
@@ -92,13 +92,13 @@ const Footer = () => {
                             <h5>Mes dernières réalisations</h5>
                             <ul className="list-unstyled">
                                 <li>
-                                    <Link className="list-group-item " to="/realisations"><span>> </span>Fresh food</Link>
+                                    <Link className="list-group-item " to="/realisations"><span>{">"} </span>Fresh food</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item " to="/realisations"><span>> </span>Restaurant Akira</Link>
+                                    <Link className="list-group-item " to="/realisations"><span>{">"} </span>Restaurant Akira</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item " to="/realisations"><span>> </span>Espace bien-être</Link>
+                                    <Link className="list-group-item " to="/realisations"><span>{">"} </span>Espace bien-être</Link>
                                 </li>
                             </ul>
                         </div>
@@ -108,13 +108,13 @@ const Footer = () => {
                             <h5>Mes dernièrs articles</h5>
                             <ul className="list-unstyled">
                                 <li>
-                                    <Link className="list-group-item " to="/blog"><span>> </span>Coder son site en HTML/CSS</Link>
+                                    <Link className="list-group-item " to="/blog"><span>{">"} </span>Coder son site en HTML/CSS</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item " to="/blog"><span>> </span>Vendre ses produits sur le web</Link>
+                                    <Link className="list-group-item " to="/blog"><span>{">"} </span>Vendre ses produits sur le web</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item " to="/blog"><span>> </span>Se positionner sur Google</Link>
+                                    <Link className="list-group-item " to="/blog"><span>{">"} </span>Se positionner sur Google</Link>
                                 </li>
                             </ul>
                         </div>
