@@ -33,9 +33,8 @@ const LegalNoticeCard = () => {
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div className="accordion-body">
-                        <h2>CodeSandBox</h2>
-                        <p>Singel 542, 1017 AZ Amsterdam</p>
-                        <p><img src={Net} alt="Logo du net" /> <a href="https://codesandbox.io/" rel="noreferrer">www.codesandbox.io</a></p>               
+                        <h2>Vercel</h2>
+                        <p><img src={Net} alt="Logo du net" /> <a href="https://vercel.com/home" rel="noreferrer">https://vercel.com/home</a></p>               
                     </div>
                 </div>
             </div>
