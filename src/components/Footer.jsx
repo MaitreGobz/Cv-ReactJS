@@ -73,7 +73,7 @@ const Footer = () => {
                                     <Link className="list-group-item" to="/"><span>{">"} </span>Accueil</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item" to="/about"><span>{">"} </span>A propos</Link>
+                                    <Link className="list-group-item" to="/#about"><span>{">"} </span>A propos</Link>
                                 </li>
                                 <li>
                                     <Link className="list-group-item" to="/services"><span>{">"} </span>Services</Link>
@@ -82,7 +82,7 @@ const Footer = () => {
                                     <Link className="list-group-item" to="/contact"><span>{">"} </span>Me contacter</Link>
                                 </li>
                                 <li>
-                                    <Link className="list-group-item " to="/mentions"><span>{">"} </span>Mentions légales</Link>
+                                    <Link className="list-group-item " to="/notice"><span>{">"} </span>Mentions légales</Link>
                                 </li>
                             </ul>
                         </div>

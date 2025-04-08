@@ -106,5 +106,12 @@ main {
   h3, h4, h5 {
       color: #1e1e1e;
   }
+  .logo-img {
+    transition: filter 0.3s ease;
+  }
+  .image-card:hover .logo-img {
+    filter: brightness(0) saturate(100%) invert(94%) sepia(16%) saturate(587%) hue-rotate(183deg) brightness(98%) contrast(98%);
+  }  
 }
 
+ 

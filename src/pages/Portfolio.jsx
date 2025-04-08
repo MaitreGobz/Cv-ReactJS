@@ -7,8 +7,8 @@ const Portfolio = () => {
         <main>
             <img src={Banner} alt="bannière" className="img-fluid w-100 pb-2" />
             <div className="text-center container-fluid">
-                <h1 className="mt-3 text-uppercase">Portfolio</h1>
-                <p>Voici quelque unes de mes réalisations.</p>
+                <h1 className="mt-5 text-uppercase">Portfolio</h1>
+                <p className="text-center pb-5">Voici quelque unes de mes réalisations.</p>
                 <hr className="border border-primary border-3 opacity-75 mx-auto mb-4" width="30%" />
                 <PortfolioCard />
             </div>

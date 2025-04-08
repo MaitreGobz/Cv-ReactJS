@@ -45,6 +45,7 @@ footer #copyright {
   color: #ffffff;
 }
 
+
 main #presentation {
   position: relative;
   background-image: url(../img/hero-bg.jpg);
@@ -81,7 +82,7 @@ main #contact {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: max-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,5 +104,12 @@ main #contact::before {
 main h3, main h4, main h5 {
   color: #1e1e1e;
 }
+main .logo-img {
+  transition: filter 0.3s ease;
+}
+main .image-card:hover .logo-img {
+  filter: brightness(0) saturate(100%) invert(94%) sepia(16%) saturate(587%) hue-rotate(183deg) brightness(98%) contrast(98%);
+}
+
 
 /*# sourceMappingURL=App.css.map */

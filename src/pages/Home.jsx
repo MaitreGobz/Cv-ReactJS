@@ -24,8 +24,7 @@ const Home = () => {
             <section className="container p-5" id="about">
                 <div className="shadow p-3 py-4 mb-5 rounded bg-body-light row">
                     <div className="col-md-6">
-                        <h2>A propos</h2>
-                        <hr className="border border-primary border-3 opacity-75" />
+                        <h2 className="text-center text-uppercase pb-5 border-bottom border-primary border-5 mx-auto mb-4">à propos</h2>                     
                         <p>Passionné par l'informatique et les nouvelles technologies, j'ai suivi une formation d'<strong>intégrateur-développeur web</strong> au CEF.
                         Au cours de cette formation, j'ai pu acquérir des bases solides pour travailler dans le domaine du <strong>développement web</strong>.</p>
                         <p>Basé à Lyon, je suis à la recherche d'une alternance au sein d'une agence digitale pour consolider ma formation de <strong>développeur web full stack</strong>.</p>

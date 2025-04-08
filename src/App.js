@@ -5,8 +5,11 @@ import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import LegalNotice from './pages/LegalNotice';
+import GithubProfile from './pages/GitHubProfile';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
+
 
 
 function App() {
@@ -20,6 +23,8 @@ function App() {
         <Route path="/realisations" element={<Portfolio />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/notice" element={<LegalNotice />} />
+        <Route path="/github" element={<GithubProfile />} />
       </Routes>
       </main>
       <Footer />
