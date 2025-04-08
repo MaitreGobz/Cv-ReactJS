@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Website hosting
 
-You can visit the hosted site at the following URL : [https://cv-react-js-eta.vercel.app/services](https://cv-react-js-eta.vercel.app/services)
+You can visit the hosted site at the following URL : [https://cv-react-js-eta.vercel.app](https://cv-react-js-eta.vercel.app)
